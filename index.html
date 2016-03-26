@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/assets/stylesheets/main.css">
+</head>
+<body ng-controller='GithubCtrl'>
+  <h1>Github Users</h1>
+  <ul>
+    <li ng-repeat='user in users'>
+      <a href='https://github.com/{{user.login}}' ng-cloak class="ng-cloak">
+        {{user.login}}
+      </a>
+    </li>
+  </ul>
+    <!-- Scripts -->
+    <script src="public/assets/javascript/plugins.min.js"></script>
+    <script src="public/assets/javascript/app.min.js"></script>
+</body>
+</html>

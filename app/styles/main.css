@@ -1,0 +1,14 @@
+body {
+	color: black;
+	border-radius: 20px;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+
+li {
+	transform: rotate(5deg) rotateY(50deg);
+    transition: all 0.3s ease-in;
+    box-sizing: border-box;	
+}
